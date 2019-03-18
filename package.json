@@ -1,0 +1,20 @@
+{
+  "name": "vuepress-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "resolutions": {
+    "webpack-dev-middleware": "3.6.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vuepress": "^0.14.10"
+  }
+}
