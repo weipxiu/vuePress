@@ -1,20 +1,21 @@
 {
-  "name": "vuepress-test",
+  "name": "vuepress-homepage",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Generate your homepage with VuePress",
+  "author": "www.weipxiu.com",
+  "repository": "https://github.com/weipxiu",
   "scripts": {
+    "clean": "rimraf dist/*",
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "vuepress build docs"
   },
-  "resolutions": {
-    "webpack-dev-middleware": "3.6.0"
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^0.14.5"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "vuepress": "^0.14.10"
+    "markdown-it": "^8.4.1",
+    "markdown-it-emoji": "^1.4.0",
+    "markdown-it-katex": "^2.0.3"
   }
 }
