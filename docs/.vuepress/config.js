@@ -1,5 +1,5 @@
 module.exports = {
-  title: "vuePress_Demo",
+  title: "web开发",
   description: "The description of the site.",
   head: [["link", { rel: "icon", href: `/logo.png` }]],
   base: "/",
@@ -14,7 +14,28 @@ module.exports = {
       { text: "仓库", link: "https://github.com/weipxiu/vuePress" }
     ],
     sidebar: {
-      '/guide/': genSidebarConfig('Guide')
+      // 侧边栏在 /guide/ 上
+      '/guide/': [
+        {
+          title:'如何学习前端',
+          collapsable: false,
+          children:[
+            '',
+            'getting-started',
+            'customize',
+            'advanced'
+          ]
+        },
+        {
+          title:'如何学习后端',
+          collapsable: false,
+          children:[
+            'getting-started_1',
+            'customize_1',
+            'advanced_1'
+          ]
+        }
+      ]
     },
     lastUpdated: 'Last Updated'
   },
@@ -28,18 +49,5 @@ module.exports = {
   }
 };
 
-function genSidebarConfig (title) {
-  return [
-    {
-      title,
-      collapsable: false,
-      children: [
-        '',
-        'getting-started',
-        'customize',
-        'advanced',
-      ]
-    }
-  ]
-}
+
 

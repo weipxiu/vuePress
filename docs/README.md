@@ -21,7 +21,7 @@ actions:
   link: https://github.com/mtobeiyf
 - text: CV
   link: /article/
-footer: Made with ♥ by Fing. Powered by VuePress
+footer: Powered by VuePress
 ---
 
 I attended [Hogwarts School of Witchcraft and Wizardry](https://en.wikipedia.org/wiki/Hogwarts) to study witchcraft, supervised by **Dumbledore** and other professors. I'm trying my best to battle with Lord Voldemort, the evil Wizard that we all fear. My research area includes Defence Against the Dark Arts and other magic. :dizzy:
